@@ -13,10 +13,10 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - ground_layer
+  - character_layer
+  - character_foot_layer
+  - wall_layer
   - 
   - 
   - 
@@ -38,6 +38,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: before_2
+    uniqueID: 1847933661
+    locked: 0
+  - name: before_1
+    uniqueID: 2730283701
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: after_1
+    uniqueID: 1853052429
     locked: 0
