@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: sutyan_Material
+  m_Name: floor_2_2
   m_Shader: {fileID: -6465566751694194690, guid: 5dc383f12b54ed242a6ce056cac9394d,
     type: 3}
-  m_ShaderKeywords: _USE8NEIGHBOURHOOD_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 5f669df67bff11342a70d28e56258187, type: 3}
+        m_Texture: {fileID: 2800000, guid: 3665237e7d91e2242b8451b73fbd9b80, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -33,40 +33,21 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: 3e069e1bd636f994e82474cd4bdb87e0, type: 3}
+        m_Texture: {fileID: 2800000, guid: 445c8285e78ebaf49a79ef27303e340d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalTex:
-        m_Texture: {fileID: 2800000, guid: 3e069e1bd636f994e82474cd4bdb87e0, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_DAC4E731_Texture_1:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _Texture2DAsset_B4169797_Out_0:
-        m_Texture: {fileID: 2800000, guid: 5f669df67bff11342a70d28e56258187, type: 3}
+        m_Texture: {fileID: 2800000, guid: c988ec26c817dca4ca5d43e2a7399895, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_1E31DC85: 1.36
+    - Vector1_1E31DC85: 2.06
     - Vector1_9B61D4DA: 0
     - Vector1_C6FCA7FF: 0
-    - _Cutoff: 0.1
     - _EnableExternalAlpha: 0
-    - _OutlineMipLevel: 0
-    - _OutlineReferenceTexWidth: 1024
-    - _OutlineSmoothness: 1
-    - _OutlineWidth: 3
-    - _StencilComp: 8
-    - _StencilRef: 1
-    - _StraightAlphaInput: 0
-    - _ThresholdEnd: 0.25
-    - _Use8Neighbourhood: 1
     m_Colors:
-    - Color_F3AF384A: {r: 0.41509432, g: 0.41509432, b: 0.41509432, a: 0}
+    - Color_F3AF384A: {r: 0.6981132, g: 0.6360475, b: 0.5960306, a: 1}
     - Vector2_DA08F990: {r: 1, g: 1, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
-    - _OutlineColor: {r: 1, g: 1, b: 0, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

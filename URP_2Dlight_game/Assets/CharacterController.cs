@@ -18,6 +18,7 @@ public class CharacterController : MonoBehaviour
 
 
     public bool is_ground { get; set; }
+    public bool on_attack { get; set; }
 
     [SerializeField]
     float chara_speed;
@@ -40,6 +41,7 @@ public class CharacterController : MonoBehaviour
        
         CharaMove();
         JumpMove();
+        AttackMove();
     }
 
     private void FixedUpdate()
@@ -55,7 +57,12 @@ public class CharacterController : MonoBehaviour
 
     void CharaMove()
     {
-        
+        //this.transform.position = new Vector2(this.transform.position.x, this.transform.position.y);
+        if (is_ground == true)
+        {
+           
+
+        }
         
         if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKeyUp(KeyCode.UpArrow))
         {
@@ -128,6 +135,28 @@ public class CharacterController : MonoBehaviour
 
         }
 
+    }
+
+    void AttackMove()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            if(on_attack == false)
+            {
+                on_attack = true;
+                StartCoroutine("AttackMoveC");
+            }
+            
+        }
+
+    }
+
+    private IEnumerator AttackMoveC()
+    {
+        chara_skeletonanim.SetTrigger("attack_trigger");
+        yield return new WaitForSeconds(1f);
+        
+        on_attack = false;
     }
 
 

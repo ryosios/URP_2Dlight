@@ -16,7 +16,7 @@ public class CharacterCollisionSC : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(CharacterControllerSC.is_ground);
+       // Debug.Log(CharacterControllerSC.is_ground);
     }
 
     private void OnCollisionStay2D(Collision2D collision)
