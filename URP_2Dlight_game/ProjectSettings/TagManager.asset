@@ -17,9 +17,9 @@ TagManager:
   - character_layer
   - character_foot_layer
   - wall_layer
-  - 
-  - 
-  - 
+  - attack_collison_layer
+  - enemy_layer
+  - tottuki_collision_layer
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: after_1
     uniqueID: 1853052429
+    locked: 0
+  - name: after_2
+    uniqueID: 3753495989
     locked: 0

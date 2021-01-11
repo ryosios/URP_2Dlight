@@ -19,13 +19,27 @@ public class CharacterCollisionSC : MonoBehaviour
        // Debug.Log(CharacterControllerSC.is_ground);
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
+
+    private void OnCollisionEnter2D(Collision2D collision)
     {
 
+        Debug.Log("koko");
+
+        CharacterControllerSC.is_ground = true;
+        CharacterControllerSC.jump_count = 0;
+
+
+
+
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
         
 
+        Debug.Log(collision.contacts[0].normal);
+        CharacterControllerSC.sakamiti_normal_vector = collision.contacts[0].normal;
         CharacterControllerSC. is_ground = true;
-
+        CharacterControllerSC.jump_count = 0;
 
 
 
